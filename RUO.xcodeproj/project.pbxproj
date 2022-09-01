@@ -13,6 +13,8 @@
 		FA1DE83228BEF6350025F159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1DE83028BEF6350025F159 /* Main.storyboard */; };
 		FA1DE83428BEF6370025F159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1DE83328BEF6370025F159 /* Assets.xcassets */; };
 		FA1DE83728BEF6370025F159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1DE83528BEF6370025F159 /* LaunchScreen.storyboard */; };
+		FA1DE83F28BEF69A0025F159 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DE83E28BEF69A0025F159 /* Sign.swift */; };
+		FA1DE84128BEF7B10025F159 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DE84028BEF7B10025F159 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		FA1DE83328BEF6370025F159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA1DE83628BEF6370025F159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA1DE83828BEF6370025F159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1DE83E28BEF69A0025F159 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		FA1DE84028BEF7B10025F159 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		FA1DE84528BEFD610025F159 /* SignTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SignTest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 				FA1DE83328BEF6370025F159 /* Assets.xcassets */,
 				FA1DE83528BEF6370025F159 /* LaunchScreen.storyboard */,
 				FA1DE83828BEF6370025F159 /* Info.plist */,
+				FA1DE83E28BEF69A0025F159 /* Sign.swift */,
+				FA1DE84028BEF7B10025F159 /* GameState.swift */,
+				FA1DE84528BEFD610025F159 /* SignTest.playground */,
 			);
 			path = RUO;
 			sourceTree = "<group>";
@@ -140,6 +148,8 @@
 			files = (
 				FA1DE82F28BEF6350025F159 /* ViewController.swift in Sources */,
 				FA1DE82B28BEF6350025F159 /* AppDelegate.swift in Sources */,
+				FA1DE84128BEF7B10025F159 /* GameState.swift in Sources */,
+				FA1DE83F28BEF69A0025F159 /* Sign.swift in Sources */,
 				FA1DE82D28BEF6350025F159 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
